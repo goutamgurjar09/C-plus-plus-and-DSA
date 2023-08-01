@@ -151,10 +151,11 @@ The iostream library allows you to perform input (reading data) and output (writ
  By adding using namespace std; at the beginning of your code, you are essentially telling the compiler that you want to use all the names from the std namespace 
  directly in your code without explicitly specifying std:: before each name.
  The std::cout is used to identify the standard character output device which is usually the desktop screen;
+
  
+ // Using the directive "using namespace std;"
  #include <iostream>
-// Using the directive "using namespace std;"
-using namespace std;
+ using namespace std;
 int main() {
     int number;
     cout << "Enter a number: "; // Instead of std::cout, we can use cout directly
@@ -162,10 +163,10 @@ int main() {
     cout << "You entered: " << number << endl; // Instead of std::endl, we can use endl directly
     return 0;
 }
-
+///////////*////////*///////////*//////////*/////////////*////////////////*//////////////
+// Using specific names from the std namespace
 
 #include <iostream>
-// Using specific names from the std namespace
 using std::cout;
 using std::cin;
 using std::endl;
