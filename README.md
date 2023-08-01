@@ -137,11 +137,11 @@ int main( ) {
   cout << "End of line"<<endl;   
 }   
 
-# what is #include<iostream.h>/<iostream>?
+# what is #include<iostream>  ?
 
-#include<iostream> includes the standard input output library functions. It provides cin and cout methods for reading from input and writing to output respectively.
+#include <iostream>, includes the standard input output library functions. It provides cin and cout methods for reading from input and writing to output respectively.
 
-#include <iostream> is a preprocessor directive in C++ that includes the contents of the standard I/O stream library, iostream, into your C++ program. The iostream library provides input and output stream functionalities in C++.
+#include <iostream>, is a preprocessor directive in C++ that includes the contents of the standard I/O stream library, iostream, into your C++ program. The iostream library provides input and output stream functionalities in C++.
 
 The iostream library allows you to perform input (reading data) and output (writing data) operations in the C++ program using the standard input (std::cin) and output (std::cout) streams. It provides classes like std::istream and std::ostream that represent input and output streams, respectively.
 
@@ -151,6 +151,7 @@ The iostream library allows you to perform input (reading data) and output (writ
  By adding using namespace std; at the beginning of your code, you are essentially telling the compiler that you want to use all the names from the std namespace 
  directly in your code without explicitly specifying std:: before each name.
  The std::cout is used to identify the standard character output device which is usually the desktop screen;
+ 
  #include <iostream>
 // Using the directive "using namespace std;"
 using namespace std;
@@ -161,6 +162,7 @@ int main() {
     cout << "You entered: " << number << endl; // Instead of std::endl, we can use endl directly
     return 0;
 }
+
 
 #include <iostream>
 // Using specific names from the std namespace
@@ -174,7 +176,6 @@ int main() {
     cout << "You entered: " << number << endl; // And endl directly
     return 0;
 }
-
 
 # Comment in C++ :-
 
