@@ -113,6 +113,7 @@ int main( ) {
 # Standard input stream (cin) :-
 The cin is a predefined object of istream class. It is connected with the standard input device, which is usually a keyboard. The cin is used in conjunction with stream extraction operator (>>) to read the input from a console.
 
+
 Let's see the simple example of standard input stream (cin):
 #include <iostream>  
 using namespace std;  
@@ -125,6 +126,7 @@ int main( ) {
 
 # Standard end line (endl) 
 The endl is a predefined object of ostream class. It is used to insert a new line characters and flushes the stream.
+
 
 Let's see the simple example of standard end line (endl):
 #include <iostream>  
