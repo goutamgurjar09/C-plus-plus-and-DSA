@@ -154,17 +154,21 @@ The iostream library allows you to perform input (reading data) and output (writ
 
  
  // Using the directive "using namespace std;"
+  // Instead of std::cout, we can use cout directly
+  // Instead of std::cin, we can use cin directly
+ // Instead of std::endl, we can use endl directly
+
  #include <iostream>
  using namespace std;
 int main() {
     int number;
-    cout << "Enter a number: "; // Instead of std::cout, we can use cout directly
-    cin >> number;              // Instead of std::cin, we can use cin directly
-    cout << "You entered: " << number << endl; // Instead of std::endl, we can use endl directly
+    cout << "Enter a number: ";
+    cin >> number;            
+    cout << "You entered: " << number << endl; 
     return 0;
 }
-///////////*////////*///////////*//////////*/////////////*////////////////*//////////////
 // Using specific names from the std namespace
+ // Now, we can use cout directly  And cin directly And endl directly
 
 #include <iostream>
 using std::cout;
@@ -172,9 +176,9 @@ using std::cin;
 using std::endl;
 int main() {
     int number;
-    cout << "Enter a number: "; // Now, we can use cout directly
-    cin >> number;              // And cin directly
-    cout << "You entered: " << number << endl; // And endl directly
+    cout << "Enter a number: ";
+    cin >> number;            
+    cout << "You entered: " << number << endl; 
     return 0;
 }
 
