@@ -137,11 +137,11 @@ int main( ) {
   cout << "End of line"<<endl;   
 }   
 
-# what is #include<iostream>  ?
+# what is #include <iostream.h>  ?
 
-#include <iostream>, includes the standard input output library functions. It provides cin and cout methods for reading from input and writing to output respectively.
+#includes iostream the standard input output library functions. It provides cin and cout methods for reading from input and writing to output respectively.
 
-#include <iostream>, is a preprocessor directive in C++ that includes the contents of the standard I/O stream library, iostream, into your C++ program. The iostream library provides input and output stream functionalities in C++.
+#include iostream, is a preprocessor directive in C++ that includes the contents of the standard I/O stream library, iostream, into your C++ program. The iostream library provides input and output stream functionalities in C++.
 
 The iostream library allows you to perform input (reading data) and output (writing data) operations in the C++ program using the standard input (std::cin) and output (std::cout) streams. It provides classes like std::istream and std::ostream that represent input and output streams, respectively.
 
