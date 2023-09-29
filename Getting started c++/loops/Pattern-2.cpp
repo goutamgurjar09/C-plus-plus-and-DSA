@@ -255,13 +255,19 @@ int main(){
 
 
 //4.print
-for(i=1; i<=row; i++){
-   char ch = 'A';
-   for(j=row; j>=i; j--){
-      cout<<ch<<" ";
-      ch++;
-   }
-    cout<<endl;
-}
+// enter row and col: 5 5
+// A B C D E 
+// A B C D 
+// A B C 
+// A B 
+// A 
+// for(i=1; i<=row; i++){
+//    char ch = 'A';
+//    for(j=row; j>=i; j--){
+//       cout<<ch<<" ";
+//       ch++;
+//    }
+//     cout<<endl;
+// }
 
-}
+// }
