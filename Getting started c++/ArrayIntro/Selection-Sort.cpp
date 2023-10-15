@@ -90,7 +90,45 @@ int main(){
 
 //h.w.
 
-//1.reverse of first method/selection sort means phle sbse bda element mile usko last me leker jao or sort kro
+//1. Selection Sort Algorithm to sort the array of integers in increasing order by taking the highest number to last place. Question was explained in the class. 
+
+//means reverse of first method/selection sort means phle sbse bda element mile usko last me leker jao or sort kro
+
+// int n;
+// cout<<"enter the num: ";
+// cin>>n;
+// int arr[1000];
+
+// for(int i=0; i<n; i++){
+//     cin>>arr[i];
+// }
+
+// for(int i=n-1; i>1; i--){//bcz step array size 6-1 => 5 honge (0-4)=>total 5 step me sort hoga
+//     int index = i;
+//     for(int j=i-1; j>=0; j--){
+//      if(arr[j] > arr[index])
+//         index = j;
+//     }
+//     swap(arr[i],arr[index]);
+// }
+
+
+// for(int i=0; i<n; i++){
+//   cout<<arr[i]<<" ";
+// }
+
+
+// enter the num: 5
+// 10 4 3 2 8
+// 2 3 4 8 10 
+
+
+
+
+
+//2: Selection Sort Algorithm to sort the array of integers in decreasing/decending order.
+
+
 
 int n;
 cout<<"enter the num: ";
@@ -101,9 +139,9 @@ for(int i=0; i<n; i++){
     cin>>arr[i];
 }
 
-for(int i=n-1; i>1; i--){//bcz step array size 6-1 => 5 honge (0-4)=>total 5 step me sort hoga
+for(int i=0; i<n-1; i++){//bcz step array size 6-1 => 5 honge (0-4)=>total 5 step me sort hoga
     int index = i;
-    for(int j=i-1; j>=0; j--){
+    for(int j=i+1; j<n; j++){
      if(arr[j] > arr[index])
         index = j;
     }
@@ -115,10 +153,28 @@ for(int i=0; i<n; i++){
   cout<<arr[i]<<" ";
 }
 
+// enter the num: 5
+// 4 5 7 9 3
+// 9 7 5 4 3
 
 // enter the num: 5
-// 10 4 3 2 8
-// 2 3 4 8 10 
+// 1 2 3 4 5
+// 5 4 3 2 1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
