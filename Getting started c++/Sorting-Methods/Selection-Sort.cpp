@@ -103,7 +103,7 @@ int main(){
 //     cin>>arr[i];
 // }
 
-// for(int i=n-1; i>1; i--){//bcz step array size 6-1 => 5 honge (0-4)=>total 5 step me sort hoga
+// for(int i=n-1; i>1; i--){
 //     int index = i;
 //     for(int j=i-1; j>=0; j--){
 //      if(arr[j] > arr[index])
@@ -130,28 +130,28 @@ int main(){
 
 
 
-int n;
-cout<<"enter the num: ";
-cin>>n;
-int arr[1000];
+// int n;
+// cout<<"enter the num: ";
+// cin>>n;
+// int arr[1000];
 
-for(int i=0; i<n; i++){
-    cin>>arr[i];
-}
+// for(int i=0; i<n; i++){
+//     cin>>arr[i];
+// }
 
-for(int i=0; i<n-1; i++){//bcz step array size 6-1 => 5 honge (0-4)=>total 5 step me sort hoga
-    int index = i;
-    for(int j=i+1; j<n; j++){
-     if(arr[j] > arr[index])
-        index = j;
-    }
-    swap(arr[i],arr[index]);
-}
+// for(int i=0; i<n-1; i++){
+//     int index = i;
+//     for(int j=i+1; j<n; j++){
+//      if(arr[j] > arr[index])
+//         index = j;
+//     }
+//     swap(arr[i],arr[index]);
+// }
 
 
-for(int i=0; i<n; i++){
-  cout<<arr[i]<<" ";
-}
+// for(int i=0; i<n; i++){
+//   cout<<arr[i]<<" ";
+// }
 
 // enter the num: 5
 // 4 5 7 9 3
@@ -164,7 +164,32 @@ for(int i=0; i<n; i++){
 
 
 
+// Selection Sort Algorithm to sort the array of char in ascending order.
+int n;
+cout<<"enter the num: ";
+cin>>n;
+char arr[1000];
 
+for(int i=0; i<n; i++){
+    cin>>arr[i];
+}
+
+for(int i=0; i<n-1; i++){
+    int index = i;
+    for(int j=i+1; j<n; j++){
+     if(arr[j] < arr[index])
+        index = j;
+    }
+    swap(arr[i],arr[index]);
+}
+
+
+for(int i=0; i<n; i++){
+  cout<<arr[i]<<" ";
+}
+// enter the num: 5
+// b d e a c
+// a b c d e
 
 
 
