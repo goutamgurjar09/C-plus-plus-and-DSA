@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 //input->int arr = {7,4,8,5,3}, int size = 5
 
 //Bubble sort
