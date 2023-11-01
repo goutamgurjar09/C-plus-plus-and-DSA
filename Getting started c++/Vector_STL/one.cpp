@@ -181,10 +181,7 @@ arr.push_back(5);
 //search ele. using binary search
 //cout<<binary_search(arr.begin(),arr.end(), 8);//returns 1/0 if ele. present or not
 
-//Max or Min
 
-int maxi = max_element(arr.begin(),arr.end());
-cout<<maxi;
 
 
 
