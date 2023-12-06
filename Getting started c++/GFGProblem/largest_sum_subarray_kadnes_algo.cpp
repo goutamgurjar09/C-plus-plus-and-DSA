@@ -2,7 +2,7 @@
 using namespace std;
 
 long long maxSubarrSum(int arr[],int n){
-      int maxi = INT_MIN;
+    int maxi = INT_MIN;
     
     //bruite force O(n^2)
     //   for(int i=0; i<n; i++){
@@ -32,7 +32,7 @@ int main(){
     cin>>arr[i];
   }
 
-   int res = maxSubarrSum(arr,n);
+   long long res = maxSubarrSum(arr,n);
    cout<<res;
 }
 // 4
