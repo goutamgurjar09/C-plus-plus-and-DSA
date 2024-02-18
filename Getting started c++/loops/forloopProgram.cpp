@@ -62,7 +62,7 @@ int main(){
 // int n1 ,pow;
 // cout<<"enter n1 and power: ";
 // cin>>n1>>pow;
-// int num = n1;//bcz n content hoga every time
+// int num = n1;//bcz num  change hoga every time and n1 same rhega
 
 // for(i = 1; i<pow; i++){
 //     num = num * n1;    
@@ -125,6 +125,31 @@ cin>>n;
 //  cout<<"prime";
 //  return 0;
 // }
+
+//Print prime num 1 to n
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int n = 100; 
+//    bool isPrime;
+//     for(int i=2; i<=n; i++){
+//        isPrime = true;
+//        for(int j=2; j<i/2; j++){
+//          if(i % j == 0){
+//          isPrime = false;
+//            break;
+//          }
+//        }
+//         if (isPrime) {
+//             cout << i << " ";
+//         }
+//     }
+
+//        return 0;
+// }
+
 
 //fibonaccci series 
 //Note fibonacci series 1 to n means 0+1+1+2+3+5.........so on

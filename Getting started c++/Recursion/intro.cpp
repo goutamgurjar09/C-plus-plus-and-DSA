@@ -1,3 +1,6 @@
+//Recursion is a function that is call itself again and again whenever it reaches a satisfied condition-> /base case
+//Recursion means ek big/badi problem ko choti choti subproblem me todna and use easily solve krna means ydi hm ek choti problem ko solve/code kr lete hai to baki problem automatic solve ho jati hai bcz unke liye hm function call lga rhe baar baar
+
 
 // #include<iostream>
 // using namespace std;

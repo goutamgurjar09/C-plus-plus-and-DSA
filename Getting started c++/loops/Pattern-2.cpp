@@ -161,7 +161,7 @@ int main(){
 // 2 2 
 // 1 
 // for(i=1; i<=row; i++){
-//     for(j=; j<=i; j++){
+//     for(j=1; j<=i; j++){
 //       cout<<i<<" ";
 //     }
 //     cout<<endl;

@@ -161,7 +161,7 @@ int main(){
 // i j k l 
 // m n o p 
 
-//print ascii val for a to z//maens 97 to 122
+//print ascii val for a to z//mens 97 to 122
 //isme j bala loop to given input tk  chl rha every time for row
 // for(int i=1; i<=row; i++){
 //     char ch= 'a'; //j means col
